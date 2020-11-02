@@ -4,12 +4,12 @@ public class Artikl {
     private int cijena;
     private String naziv, kod;
 
-    public String getNaziv(){
-        return naziv;
-    }
-
     public int getCijena(){
         return cijena;
+    }
+
+    public String getNaziv(){
+        return naziv;
     }
 
     public String getKod(){
